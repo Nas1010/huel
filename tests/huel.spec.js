@@ -22,7 +22,7 @@ test('navigate the Huel homepage to take the quiz and validate results.', async 
     await page.getByText('Dinner.cls-1{fill:#0a0b0b;}').click();
     await page.getByRole('button', { name: 'Continue' }).click();
 
-    //Select preferred meal type
+    //Select preferred meal time
     await page.getByText('I’m not picky').click();
     await page.getByText('Eating on the go.cls-1{fill:#').click();
 
